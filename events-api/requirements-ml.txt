@@ -1,0 +1,6 @@
+# Optional: recommendations/index building
+numpy>=1.26
+sentence-transformers>=2.6.0
+
+# Optional acceleration (may not be available on all platforms/Python versions)
+# faiss-cpu>=1.7.4

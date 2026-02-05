@@ -1,0 +1,35 @@
+# Secrets / env files
+.env
+.env.*
+*.env
+*.pem
+*_key*
+
+# Google OAuth client secrets (downloaded JSON)
+client_secret_*.json
+
+# Django / Python
+__pycache__/
+*.py[cod]
+.Python
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Local databases / schedules
+*.sqlite3
+celerybeat-schedule*
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
